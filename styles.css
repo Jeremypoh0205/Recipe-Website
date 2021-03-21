@@ -1,0 +1,870 @@
+body{
+    margin: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 0;
+}
+
+.Read-Recipe{
+    background-color:none;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 100  px;
+    border: 1px solid white;
+    letter-spacing: 2px;
+    border-radius: 100px;
+    transition: all 0.6s;
+}
+
+
+.Read-Recipe:hover{
+    color: tomato;
+    background-color: black;
+}
+
+/* navigation section*/
+.navigation-bar{
+    font-family:latha;
+}
+
+.navigation-bar ul{
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type:none;
+    background-color:black;
+    
+}
+
+.navigation-bar ul li{  
+    display: inline-block;    
+}
+
+.navigation-bar li a{
+    display: block;
+    color:whitesmoke;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 25px 20px;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+}
+
+.navigation-bar ul li:hover{
+    background-color:white; 
+    transition: ease-in-out;
+ }
+
+ .navigation-bar ul a:hover{
+     color:#f4511e;
+ }
+
+ #sub a{
+    color: black;
+}
+
+#sub :hover{
+    color:#f4511e;
+}
+
+ /* head section*/
+ .head-section {
+     width: 100%;
+     height: 89vh;
+     background-image:linear-gradient(#ffd89b, #19547b ), url(Images/Food.jpg);
+     background-size: 1280px 550px;
+     background-blend-mode: multiply;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     padding-bottom: 130px;
+ }
+
+ .head-section2 {
+    color: #fff;
+    text-align: center;
+ }
+ .head-text {
+     font-size: 80px;
+     font-weight: 420;
+ }
+
+ .p-text {
+     letter-spacing: 5px;
+     font-size: 18px;
+ }
+
+ 
+/*Recipe PageTable Section*/
+.table1 table,th,td {
+    width: 3%;
+    color:black;
+    border: 2px solid black;
+    border-collapse:collapse; 
+    border-spacing: 3px;
+    font-size: 16px;  
+}
+    
+.table1 th, td{
+     text-align: center;        
+}
+
+table.table1{
+     padding-left: 30px;
+     padding-right: 30px;
+}    
+
+/*Categories section*/
+.Categories ul li{
+    display: inline-block;
+}
+.Categories ul{
+    display: flex;
+    justify-content: center;
+}
+
+.Categories li a{
+    padding-right: 65px;
+    font-size: 25px;
+    color: #2c3e50;
+    font-family:monospace;
+    text-transform: uppercase;
+}
+.Categories ul a:hover{
+    color: #185a9d;
+    font-size: 250%;
+}
+
+ /*recipe section-1*/
+.checked1{
+    color: orange;
+}
+.Star-R{
+    padding-left: 490px;
+}
+ 
+.img1{
+     float: left;
+     padding-left: 20px;
+     padding-top: 5px;
+     border-radius: 40px;
+     width: 450px;
+     height: 350px;
+    
+ }
+ .H1Mozza-Bake{
+    padding-top: 15px;
+    padding-left: 490px;
+    font-size: 34px;
+}
+
+.icons{
+    letter-spacing: 2px;
+
+}
+.icons span{
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.icons li{
+    font-size: 24px;
+    display: inline-block;
+    padding-left: 40px;
+}
+
+.text1 {
+    padding-left: 490px;
+    padding-right: 20px;
+    font-size: 18px;
+    text-align: justify;  
+}
+
+.Ingredients{
+    border-style: solid;
+    width: 280px;
+    padding: 15px;
+    height: 460px;
+    margin-left: 30px;
+    float: left;
+    font-size: 17px;
+    box-shadow: 8px 8px 3px grey;
+    line-height: 1.7;
+   
+}
+.method{
+    padding-left: 340px;
+    text-align: justify;
+    padding-right: 20px;
+    font-family: cursive;
+    font-size: 18px;
+}
+/* Recipe 2*/
+.checked2{
+    color: orange;
+}
+.img2 {
+    float: left;
+    padding-left: 20px;
+    width: 450px;
+    height: 380px;
+    border-radius: 30px;
+}
+.H1Piri-Chicken{
+    padding-left: 490px;
+    font-size: 34px;
+}
+
+.Ingredients2{
+    border-style: solid;
+    width: 280px;
+    padding: 15px;
+    height: 450px;
+    margin-left: 30px;
+    float: left;
+    font-size: 17px;
+    box-shadow: 8px 8px 3px grey;
+    line-height: 1.7;
+}
+
+/* Recipe 3*/
+.checked2{
+    color: orange;
+}
+
+.img3 {
+    float: left;
+    padding-left: 20px;
+    width: 450px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.H1Meatball-Soup{
+    padding-left: 490px;
+    font-size: 34px;
+}
+
+.Ingredients3{
+    border-style: solid;
+    width: 280px;
+    height: 450px;
+    margin-right: 50px;
+    float: right;
+    font-size: 17px;
+    box-shadow: 8px 8px 3px grey;
+    line-height: 1.5;
+}
+
+.method3{
+    padding-left: 40px;
+    text-align: justify;
+    padding-right: 340px;
+    font-family: cursive;
+    font-size: 18px;
+}
+/* Recipe 4*/
+.img4 {
+    float: left;
+    padding-left: 20px;
+    width: 450px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.H1PrawnTika{
+    padding-left: 490px;
+    font-size: 34px;
+}
+
+.Ingredients4{
+    border-style: solid;
+    width: 280px;
+    height: 540px;
+    margin-right: 50px;
+    float: right;
+    font-size: 17px;
+    box-shadow: 8px 8px 1px grey;
+    line-height: 1.6; 
+}
+
+/*Recipe 5*/
+.H1Creamy-Chicken{
+    padding-left: 490px;
+    font-size: 34px;
+}
+
+.Ingredients5{
+    width: 280px;
+    height: 480px;
+    margin-right: 50px;
+    float: right;
+    font-size: 17px;
+    box-shadow: 8px 8px 1px grey; 
+    margin-top: 115px;
+    border:3px solid black;
+    line-height: 1.6;
+}
+/*Recipe 6*/
+.H1ChocoCookies{
+    padding-left: 490px;
+    font-size: 34px;
+}
+.f1{
+    box-shadow: 8px 8px 3px grey;
+    float: left;
+    width: 300px;
+    height: 470px;
+    border:2px solid brown;
+    margin-left: 40px;
+    margin-top: 85px;
+    line-height: 2.0;
+    
+}
+
+.f1 li{
+    font-size: 17px;
+}
+
+.l1{
+    font-size: 30px;
+    font-family: monospace;
+    text-shadow: 0 0 2px #488AC7;
+    line-height: 1.5;
+}
+
+.method6{
+    padding-left: 370px;
+    text-align: justify;
+    padding-right: 30px;
+    font-family: cursive;
+    font-size: 18px;
+}
+/*Recipe 7*/
+.H1LemonCheeseCake{
+    padding-left: 490px;
+    font-size: 34px;
+}
+
+.f2{
+    box-shadow: 8px 8px 3px grey;
+    float: left;
+    width: 300px;
+    height: 515px;
+    border:2px solid brown;
+    margin-left: 40px;
+    margin-top: 85px;
+    line-height: 2.0;
+}
+
+.f2 li{
+    font-size: 17px;
+}
+
+.l2{
+    font-size: 30px;
+    font-family: monospace;
+    text-shadow: 0 0 2px #488AC7;
+    line-height: 1.5;
+}
+
+.method7{
+    padding-left: 370px;
+    text-align: justify;
+    padding-right: 100px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.tips1 {
+    border: 2px solid navy;
+    margin-left: 370px;
+    width: 300px;
+    height: 190px;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: justify;
+}
+.tips1 p, b{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*Recipe 8*/
+.H1BananaLoaf{
+    padding-left: 490px;
+    font-size: 34px;
+}
+.f3{
+    box-shadow: 8px 8px 3px grey;
+    float: left;
+    width: 300px;
+    height: 470px;
+    border:2px solid brown;
+    margin-left: 40px;
+    margin-top: 85px;
+    line-height: 2.0;
+    
+}
+
+.f3 li{
+    font-size: 17px;
+}
+
+.l3{
+    font-size: 30px;
+    font-family: monospace;
+    text-shadow: 0 0 2px #488AC7;
+    line-height: 1.5;
+}
+
+/*Recipe 9*/
+.H1ButterCookies{
+    padding-left: 490px;
+    font-size: 34px;
+}
+.f4{
+    box-shadow: 8px 8px 1px gray;
+    float: left;
+    width: 300px;
+    height: 350px;
+    border:2px solid brown;
+    margin-left: 40px;
+    margin-top: 60px;
+    line-height: 2.0;
+}
+
+.f4 li{
+    font-size: 17px;
+}
+
+.l4{
+    font-size: 30px;
+    font-family: monospace;
+    text-shadow: 0 0 2px #488AC7;
+    line-height: 1.5;
+}
+/*Recipe 10*/
+.H1ClassicBread{
+    padding-left: 490px;
+    font-size: 34px;
+}
+.f5{
+    box-shadow: 8px 8px 1px grey;
+    float: left;
+    width: 300px;
+    height: 490px;
+    border:2px solid brown;
+    margin-left: 40px;
+    margin-top: 100px;
+    line-height: 2.0;
+}
+
+.f5 li{
+    font-size: 17px;
+}
+
+.l5{
+    font-size: 30px;
+    font-family: monospace;
+    text-shadow: 0 0 2px #488AC7;
+    line-height: 1.5;
+}
+/*Recipe 11*/
+.H1LentilSoup{
+    padding-left: 490px;
+    font-size: 34px;
+}
+.f6{
+    box-shadow: 8px 8px 1px grey;
+    float: left;
+    width: 300px;
+    height: 540px;
+    border:2px solid brown;
+    margin-left: 40px;
+    margin-top: 100px;
+    line-height: 2.0;
+}
+
+.f6 li{
+    font-size: 17px;
+}
+
+.l6{
+    font-size: 30px;
+    font-family: monospace;
+    text-shadow: 0 0 2px #488AC7;
+    line-height: 1.5;
+}
+.tips2 {
+    border: 2px solid navy;
+    margin-left: 370px;
+    width: 300px;
+    height: 190px;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: justify;
+}
+.tips2 p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*Recipe 12*/
+.H1EggsChips{
+    padding-left: 490px;
+    font-size: 34px;
+}
+.f7{
+    box-shadow: 8px 8px 1px grey;
+    float: left;
+    width: 300px;
+    height: 420px;
+    border:2px solid brown;
+    margin-left: 40px;
+    margin-top: 100px;
+    line-height: 2.3;
+}
+
+.f7 li{
+    font-size: 17px;
+}
+
+.l7{
+    font-size: 30px;
+    font-family: monospace;
+    text-shadow: 0 0 2px #488AC7;
+    line-height: 1.5;
+}
+.tips3 {
+    border: 2px solid navy;
+    margin-left: 370px;
+    width: 300px;
+    height: 170px;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: justify;
+}
+.tips3 p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*Recipe 13*/
+.H1SpanichDhal{
+    padding-left: 490px;
+    font-size: 34px;
+}
+.f8{
+    box-shadow: 8px 8px 1px grey;
+    float: left;
+    width: 310px;
+    height: 710px;
+    border:2px solid brown;
+    margin-left: 40px;
+    margin-top: 90px;
+    line-height: 2.0;
+}
+
+.f8 li{
+    font-size: 17px;
+}
+
+.l8{
+    font-size: 30px;
+    font-family: monospace;
+    text-shadow: 0 0 2px #488AC7;
+    line-height: 1.5;
+}
+.tips4 {
+    border: 2px solid navy;
+    margin-left: 370px;
+    width: 530px;
+    height: 190px;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: justify;
+}
+.tips4 p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*Recipe 14*/
+.H1ChickPea{
+    padding-left: 490px;
+    font-size: 34px;
+}
+.f9{
+    box-shadow: 8px 8px 1px grey;
+    float: left;
+    width: 310px;
+    height: 530px;
+    border:2px solid brown;
+    margin-left: 40px;
+    margin-top: 60px;
+    line-height: 2.0;
+}
+
+.f9 li{
+    font-size: 17px;
+}
+
+.l9{
+    font-size: 30px;
+    font-family: monospace;
+    text-shadow: 0 0 4px lightskyblue;
+    line-height: 1.5;
+}
+.tips5 {
+    border: 2px solid navy;
+    margin-left: 370px;
+    width: 350px;
+    height: 250px;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: justify;
+}
+.tips5 p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*Recipe 15*/
+.H1VeganChickPea{
+    padding-left: 490px;
+    font-size: 34px;
+}
+.f10{
+    box-shadow: 8px 8px 1px grey;
+    float: left;
+    width: 310px;
+    height: 590px;
+    border:2px solid brown;
+    margin-left: 40px;
+    margin-top: 60px;
+    line-height: 1.9;
+}
+
+.f10 li{
+    font-size: 17px;
+}
+
+.l10{
+    font-size: 30px;
+    font-family: monospace;
+    text-shadow: 0 0 2px #488AC7;
+    line-height: 1.5;
+}
+.tips6 {
+    margin-left: 340px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.tips6 li{
+    padding-left: 20px;
+}
+
+
+/*Recipe 16*/
+.H1Pizza{
+    padding-left: 490px;
+    font-size: 34px;
+}
+
+.I1 {
+    border-style: solid;
+    width: 310px;
+    height: 660px;
+    margin-right: 50px;
+    float: right;
+    font-size: 17px;
+    box-shadow: 8px 8px 3px grey;
+    padding-right: 10px;
+    margin-top: 40px;
+}
+
+.I1 li{
+    line-height: 1.5;
+}
+
+.s1{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline; 
+}
+
+.method8{
+    padding-left: 40px;
+    text-align: justify;
+    padding-right: 400px;
+    font-family: cursive;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.RT1{
+    padding-left:40px;
+    padding-right: 30px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.RT1 p{
+    font-size: 18px;
+}
+
+.RT1 h3{
+    text-decoration: underline;
+}
+
+/*Recipe 17*/
+.H1PepperChips{
+    padding-left: 490px;
+    font-size: 34px;
+}
+
+.I2 {
+    border-style: solid;
+    width: 310px;
+    height: 540px;
+    margin-right: 50px;
+    float: right;
+    font-size: 17px;
+    box-shadow: 8px 8px 3px grey;
+    padding-right: 10px;
+    margin-top: 120px;
+}
+
+.I2 li{
+    line-height: 2.0;
+}
+
+/*Recipe 18*/
+.H1Cheeseburger{
+    padding-left: 490px;
+    font-size: 34px;
+}
+
+.I3 {
+    border-style: solid;
+    width: 310px;
+    height: 660px;
+    margin-right: 50px;
+    float: right;
+    font-size: 17px;
+    box-shadow: 8px 8px 1px grey;
+    padding-right: 10px;
+    margin-top: 100px;
+}
+
+.I3 li{
+    line-height: 1.7;
+}
+
+.s3{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline; 
+}
+
+.RT2{
+    padding-left:40px;
+    padding-right: 30px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.RT2 p{
+    font-size: 18px;
+}
+
+.RT2 h3{
+    text-decoration: underline;
+}
+
+/*Recipe 19*/
+.H1CurriedCod{
+    padding-left: 490px;
+    font-size: 34px;
+}
+
+.I4 {
+    border-style: solid;
+    width: 310px;
+    height: 500px;
+    margin-right: 50px;
+    float: right;
+    font-size: 17px;
+    box-shadow: 8px 8px 1px grey;
+    padding-right: 10px;
+    margin-top: 55px;
+    text-align: start;
+}
+
+.I4 li{
+    line-height: 1.7;
+}
+
+.tips7 {
+    margin-left: 40px;
+    line-height: 1.5;
+    font-size: 18px;
+    border: 2px solid black;
+    width: 400px;
+
+}
+.tips7 li{
+    padding-right: 20px;
+}
+
+/*Recipe 20*/
+.H1Meatball{
+    padding-left: 490px;
+    font-size: 34px;
+}
+
+.I5 {
+    border-style: solid;
+    width: 310px;
+    height: 415px;
+    margin-right: 50px;
+    float: right;
+    font-size: 17px;
+    box-shadow: 8px 8px 1px grey;
+    padding-right: 10px;
+    margin-top: 70px;
+}
+
+.I5 li{
+    line-height: 1.5;
+}
+
+.RT3{
+    padding-left:40px;
+    padding-right: 30px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.RT3 p{
+    font-size: 18px;
+}
+
+.RT3 h3{
+    text-decoration: underline;
+}
+
+
+
+
+
+

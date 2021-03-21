@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+}
+
+/* navigation section*/
+.navigation-bar{
+    font-family:latha;
+}
+
+.navigation-bar ul{
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type:none;
+    background-color:black;
+}
+
+.navigation-bar ul li{  
+    display: inline-block;    
+}
+
+.navigation-bar li a{
+    display: block;
+    color:whitesmoke;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 25px 20px;
+    letter-spacing: 2px;
+}
+
+.navigation-bar ul li:hover{
+    background-color:white; 
+ }
+
+ .navigation-bar ul a:hover{
+     color:#f4511e;
+ }
+
+ #sub a{
+     color: black;
+ }
+
+ #sub :hover{
+     color:#f4511e;
+ }
+
+/*About*/
+.about-section {
+    width: 100%;
+    height: 89vh;
+    background-image:linear-gradient(#bdc3c7, #2c3e50), url(Images/About.jpeg);
+    background-size: 1280px 620px;
+    background-blend-mode: multiply;
+    display: flex; 
+}
+.about-text{
+    font-size: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: justify;
+    line-height: 1.6;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.p-text{
+    color:#eacda3;
+    font-size: 20px;
+    text-transform:uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: normal;
+}
+
+.icon a{
+    margin-left: 10px;
+    font-size: 40px;
+    color: whitesmoke;
+    float: left;
+}
+
